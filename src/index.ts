@@ -6,3 +6,5 @@ console.log(user);
 const company = new Company();
 console.log(company);
 const map = new Maps("map");
+map.addMarker(user);
+map.addMarker(company);
